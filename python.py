@@ -1,12 +1,6 @@
-score = int(input("점수: "))
+year = int(input("년도: "))
 
-if score >= 90:
-    print("A")
-elif score >= 80:
-    print("B")
-elif score >= 70:
-    print("C")
-elif score >= 60:
-    print("D")
+if (year%4 == 0 and year%100 != 0 or year%400 == 0):
+    print("윤년")
 else:
-    print("F")
+    print("평년")
