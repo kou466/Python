@@ -1,11 +1,12 @@
 # Python
 ![1](/assets/1.png)
- 2019-1 소프트웨어 기초코딩 수업 및 과제
 
-## Developement Invironment
-Python 3.7
-Windows 10 Education
-PyCharm 2019.1.1
+-  2019-1 소프트웨어 기초코딩 수업 및 과제
+
+## 개발환경
+- Python 3.7
+- Windows 10 Education
+- PyCharm 2019.1.1
 
 ## src
 ### Chapter4
