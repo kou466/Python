@@ -1,0 +1,5 @@
+char = input("문자열: ")
+print("문자열 길이:", len(char))
+print("첫 번째 문자:", char[0])
+print("두 번째 문자:", char[1])
+print("마지막 문자:", char[len(char) - 1])
