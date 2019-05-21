@@ -1,6 +1,6 @@
 engkor_dict = dict()
 
-while True:
+while(1):
     eng = input("영어 단어: ")
     if eng == "":
         print(engkor_dict)
