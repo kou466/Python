@@ -19,13 +19,11 @@ for i in range(len(s7seg_num_anode)):
         else:
             s7seg_num_anode[i][j] = 0
 
-print("s7seg_num")
+print('s7seg_num', '\t       ', 's7seg_num_anode')
 for i in range(len(s7seg_num)):
     for j in range(len(s7seg_num[i])):
         print(s7seg_num[i][j], end=' ')
-    print()
-print("s7seg_num_anode")
-for x in range(len(s7seg_num_anode)):
-    for y in range(len(s7seg_num_anode[x])):
-        print(s7seg_num_anode[x][y], end=' ')
+    print('\t  \t', end='')
+    for j in range(len(s7seg_num_anode[i])):
+        print(s7seg_num_anode[i][j], end=' ')
     print()
