@@ -6,8 +6,14 @@ def issn_check(issn):
         weight -= 1
     print("ISSN 1~7자리의 가중치 반영 합계: %d" % s)
     t = s % 11
-    chk = (11 - t) % 10
-    print("ISSN 1~7자리의 체크기호 값: %d" % chk)
+    chk = 11 - t
+
+    if chk == 10:
+        print("ISSN 1~7자리의 체크기호 값: X")
+    elif chk == 11:
+        print("ISSN 1~7자리의 체크기호 값: 0")
+    else:
+        print("ISSN 1~7자리의 체크기호 값: %d" % chk)
 
     if chk == int(issn[7]):
         rst = 1
