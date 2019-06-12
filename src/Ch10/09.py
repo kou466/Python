@@ -5,5 +5,6 @@ def str2int(char):
         a = None
     return a
 
+
 a = input("문자열: ")
 print(str2int(a))
