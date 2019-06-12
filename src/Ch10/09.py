@@ -1,11 +1,9 @@
-def str2int():
-    char = input("문자열: ")
+def str2int(char):
     if char.isdigit():
-        char = int(char)
+        a = int(char)
     else:
-        print("None")
-        return 'None'
-    print(char)
+        a = None
+    return a
 
-
-str2int()
+a = input("문자열: ")
+print(str2int(a))
